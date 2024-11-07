@@ -73,7 +73,7 @@ python accelerate_SegTest.py --name CPSInpaintCrack_PoolFormerS36_SD21 --Snet Po
 This script evaluates the accuracy for all saved models in the folder `outputs/project_name` with `testConc`. When the option of `--best_epoch 100`, then 100th saved model is called and C-IoU and F1 is assessed. 
 
 
-## Generated crack images by generative inpainting model (Dreambooth-inpainting)
+## Generated crack images by fine-tuned Dreambooth-inpainting model
 
 <table>
   <tr>
