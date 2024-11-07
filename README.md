@@ -83,7 +83,7 @@ This script evaluates the accuracy for all saved models in the folder `outputs/p
     <td><img src="fig/figGenOriginLabel_5.png" alt="Image 5" width="180"></td>
   </tr>
   <tr>
-    <td><img src="fig/figGenOriginCrack_1.jpg" alt="Image 6" width="180"></td>
+    <td><img src="fig/figGenOriginCrack_1.png" alt="Image 6" width="180"></td>
     <td><img src="fig/figGenOriginCrack_2.png" alt="Image 7" width="180"></td>
     <td><img src="fig/figGenOriginCrack_3.png" alt="Image 8" width="180"></td>
     <td><img src="fig/figGenOriginCrack_4.png" alt="Image 9" width="180"></td>
@@ -97,7 +97,7 @@ This script evaluates the accuracy for all saved models in the folder `outputs/p
     <td><img src="fig/figGenDualMask_5.png" alt="Image 15" width="180"></td>
   </tr>
   <tr>
-    <td><img src="fig/figGenDualCrack_1.png" alt="Image 16" width="180"></td>
+    <td><img src="fig/figGenDualCrack_1.jpg" alt="Image 16" width="180"></td>
     <td><img src="fig/figGenDualCrack_2.jpg" alt="Image 17" width="180"></td>
     <td><img src="fig/figGenDualCrack_3.jpg" alt="Image 18" width="180"></td>
     <td><img src="fig/figGenDualCrack_4.jpg" alt="Image 19" width="180"></td>
