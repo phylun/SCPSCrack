@@ -14,9 +14,10 @@ The full dataset is provided by Bianchi, Eric; Hebdon, Matthew (2021). Concrete 
 ## Prerequisite
 
 * CUDA 12.1
-* pytorch == 2.3.1 
-* python-opencv == 4.10.0.84
+* torch == 2.3.1 
+* opencv-python == 4.10.0.84
 * accelerate == 0.31.0
+* deepspeed == 0.14.0
 
 ## Installation
 ```bash
