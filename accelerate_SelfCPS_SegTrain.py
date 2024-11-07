@@ -15,7 +15,7 @@ from utils.util import get_DenormTensor, pseudo_criterion
 
 from seg_models.network_selector import network_selection
 from utils.eval_pre_rec_f1 import compute_mean_iou, f1score
-from options.CPS_train_options import CPSTrainOptions
+from options.SCPS_train_options import SCPSTrainOptions
 # import matplotlib.pyplot as plt
 from tqdm.auto import tqdm
 import torchvision.transforms as transforms
@@ -264,6 +264,6 @@ def training_function(opt):
 
 
 if __name__ == "__main__":
-    opt = CPSTrainOptions().parse()
+    opt = SCPSTrainOptions().parse()
     training_function(opt)
 
