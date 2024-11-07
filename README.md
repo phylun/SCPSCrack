@@ -106,7 +106,7 @@ This script evaluates the accuracy for all saved models in the folder `outputs/p
   </tr>
 </table>
 
-
+The first and second rows contain the original label images and crack images, respectively. In the third row, different label images were randomly chosen and combined to create a new label image. This new label image played a role of a mask in the generative model to synthesize new crack images. The results of this synthesis are displayed as the crack images in the fourth row.
 
 ## Changelog
 * November 08th, 2024: Updated by author
