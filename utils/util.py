@@ -149,7 +149,7 @@ def get_DenormTensor(mean=[0.5, 0.5, 0.5], std=[0.5, 0.5, 0.5]):
 
 
 def pseudo_criterion(criterion, pred, y_origin, y_mixed, lam):
-    return lam * criterion(pred, y_origin) + (1 - lam) * criterion(pred, y_mixed)
+    return (1 - lam) * criterion(pred, y_origin) + lam * criterion(pred, y_mixed)
 
 
 
