@@ -53,17 +53,16 @@ Use your own project name (e.g. CPSInpaintCrack_ConvNeXtT). Snet means segmenati
 
 The proposed training structure is called self-cross pseudo supervision, which combines self-supervision and pseudo supervision. To use only self-supervision, the `--csp_weight 0` option can be applied, while to apply pseudo supervision alone, the `--cps_weight 1` option should be added. Please refer to scripts below
 
-In case of supervised learning, use the below script
 ```
 # for self-supervised learning 
 accelerate launch --multi_gpu --main_process_port=29559 accelerate_SelfCPS_SegTrain.py \
     --name CPSInpaintCrack_PoolFormerS24 --mixed_precision 'bf16' \
-    --Snet 'PoolformerS24' --inpainting --with_tracking --cps_weight 1
+    --Snet 'PoolformerS24' --inpainting --with_tracking --cps_weight 0
 
 # for cross pseudo supervised learning 
 accelerate launch --multi_gpu --main_process_port=29559 accelerate_SelfCPS_SegTrain.py \
     --name CPSInpaintCrack_PoolFormerS24 --mixed_precision 'bf16' \
-    --Snet 'PoolformerS24' --inpainting --with_tracking --cps_weight 0
+    --Snet 'PoolformerS24' --inpainting --with_tracking --cps_weight 1
 ```
 
 ## Evaluate the segmentation model on sample dataset
